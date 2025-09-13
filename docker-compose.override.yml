@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    volumes:
+      - ./local-data:/app/local-data
+    environment:
+      - DATABASE_URL=sqlite:///./local-data/database.db
+      - ENV=local

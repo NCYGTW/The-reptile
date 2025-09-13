@@ -1,0 +1,22 @@
+# 必须传输的文件清单
+Dockerfile
+docker-compose.yml
+docker-compose.prod.yml
+start-docker.sh
+stop-docker.sh
+requirements.txt
+
+# 应用代码文件
+main.py
+models.py
+database.py
+crawler.py
+processor.py
+
+# 不需要传输的文件
+# docker-compose.override.yml (仅用于Windows本地环境)
+# start-docker-win.bat (仅用于Windows本地环境)
+# stop-docker-win.bat (仅用于Windows本地环境)
+# sync-deploy.bat (仅用于Windows本地环境)
+# .gitignore
+# sspai_sql.py (已废弃，使用SQLModel替代)
