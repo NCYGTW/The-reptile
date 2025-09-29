@@ -125,7 +125,8 @@ docker build -t sspai-api:latest .
 ```bash
 docker-compose -f docker-compose.yml up -d
 
-# 停止服务
+### 停止服务
+```bash
 docker-compose down
 ```
 
