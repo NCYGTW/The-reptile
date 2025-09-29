@@ -1,8 +1,0 @@
-fastapi==0.95.2
-uvicorn==0.22.0
-SQLModel==0.0.8
-pymysql==1.0.3
-requests==2.31.0
-beautifulsoup4==4.12.2
-lxml==6.0.1
-apscheduler==3.10.1
