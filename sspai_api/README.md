@@ -121,12 +121,10 @@ DATABASE_URL="mysql+pymysql://root:Tian_1901@mysql:3306/abcd?charset=utf8mb4"
 docker build -t sspai-api:latest .
 ```
 
-### 启动服务
+### 启动和停止服务
 ```bash
 docker-compose -f docker-compose.yml up -d
 
-### 停止服务
-```bash
 docker-compose down
 ```
 
